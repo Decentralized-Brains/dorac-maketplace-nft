@@ -44,7 +44,11 @@ const Profile = () => {
                   key={record.id}
                 >
                   {/* card image */}
-                  <img src={record.img} alt="" className="p-1.5 rounded-lg" />
+                  <img
+                    src={record.img}
+                    alt=""
+                    className="p-1.5 rounded-xl object-cover h-[210px] w-[445px] "
+                  />
 
                   {/* card first section */}
                   <div className="pt-2">
