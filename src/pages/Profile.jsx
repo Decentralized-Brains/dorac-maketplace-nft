@@ -57,17 +57,17 @@ const Profile = () => {
                         <img
                           src={People_1}
                           alt=""
-                          className="rounded-full h-[25px] z-40"
+                          className="rounded-full h-[25px] w-[25px] z-40 object-cover"
                         />
                         <img
                           src={People_2}
                           alt=""
-                          className="rounded-full h-[25px] z-30"
+                          className="rounded-full h-[25px] w-[25px] z-30 object-cover"
                         />
                         <img
                           src={People_3}
                           alt=""
-                          className="rounded-full h-[25px] z-20"
+                          className="rounded-full h-[25px] w-[25px] z-20 object-cover"
                         />
                         <div className="pl-2 text-[#BEBBBB] ">lorem ipsum</div>
                       </div>

@@ -2,33 +2,25 @@ import React from "react";
 import mainDog from "../assets/dashboard/Polygon12.png";
 import ploy from "../assets/dashboard/Polygon11.png";
 import "./dashboard.css";
+import DashPic from "../assets/images/card-6.jpg";
 
 const Dashboard = () => {
   return (
-    <section id="about-me">
+    <section id="about-me" className="wrapper">
       <div className="h-[150px]"></div>
       <div className="flex flex-col lg:flex-row mx-2 md:mx-0">
         <div className="basis-1/2">
           <div className="flex items-center justify-center">
-            <img
-              src={ploy}
-              className="h-96 w-96 relative blur-3xl"
-              alt=""
-            ></img>
-            <img
-              src={ploy}
-              className="h-96 w-96 absolute blur-3xl"
-              alt=""
-            ></img>
-            <img src={ploy} className="h-96 w-96 absolute" alt=""></img>
-            <img src={ploy} className="h-96 w-96 absolute" alt=""></img>
-            <img
-              src={mainDog}
-              className="h-96 w-96 absolute p-3"
-              alt="dorac-dog"
-            ></img>
+            <div className="h-[410px] w-[410px] bg-yellow-600 relative blur-lg"></div>
+            <div className="h-[400px] max-w-[400px] bg-yellow-600 absolute">
+              <img
+                src={DashPic}
+                alt=""
+                className="h-[400px] w-[400px] object-cover p-1"
+              />
+            </div>
           </div>
-          <div className="flex items-center justify-center pt-14">
+          <div className="flex items-center justify-center pt-10">
             <div className="border-2 border-purple-400 px-16 md:px-28">
               <h1 className="text-base sm:text-2xl text-cyan-500 font-medium">
                 #1060951 Alf Murazik{" "}
@@ -136,7 +128,7 @@ const Dashboard = () => {
               <div className="center-div">
                 <button className="special">
                   <div className="button-content min-w-[50px] md:min-w-full">
-                    <div className="flex flex-rows gap-14 sm:gap-24 lg:gap-[6.3rem]">
+                    <div className="flex flex-rows gap-10 sm:gap-24 lg:gap-[6.3rem]">
                       <div className="text-start text-white text-sm font-bold">
                         Toughness
                       </div>
@@ -150,7 +142,7 @@ const Dashboard = () => {
               <div className="center-div">
                 <button className="special ">
                   <div className="button-content min-w-[50px] md:min-w-full">
-                    <div className="flex flex-rows gap-14 sm:gap-24 lg:gap-[6.3rem]">
+                    <div className="flex flex-rows gap-10 sm:gap-24 lg:gap-[6.3rem]">
                       <div className="text-start text-white text-sm font-bold">
                         Swiftness
                       </div>
